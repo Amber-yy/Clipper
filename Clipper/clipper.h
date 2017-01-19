@@ -23,7 +23,6 @@ protected:
 protected:
 	virtual bool eventFilter(QObject *obj, QEvent *e) override;
 	virtual void resizeEvent(QResizeEvent *e) override;
-	virtual void paintEvent(QPaintEvent *e) override;
 protected:
 	QPushButton *areaSelectedBt;
 	QPushButton *routeSelectedBt;

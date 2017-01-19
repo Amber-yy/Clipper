@@ -226,8 +226,3 @@ void Clipper::resizeEvent(QResizeEvent * e)
 	saveFileBt->setGeometry(s.width() - 105, 100 + s.height() * 2 / 3, 100, 30);
 
 }
-
-void Clipper::paintEvent(QPaintEvent * e)
-{
-
-}
